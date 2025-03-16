@@ -1,16 +1,10 @@
 ﻿@model List<Goal>
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+
 <h1>Goals</h1>
 
 @foreach (Goal goal in Model)
-{
-    <p>@goal.Description (@goal.Date)</p>
-    // To (@goal.Date) vazoume se paren8esh kai etsi 8a fenete kai sth selida mas
-}
-
+    {
+        <p>@goal.Description (@goal.Date)</p>
+    }
 
 <p><a href="/Goals/Create">Create</a></p>

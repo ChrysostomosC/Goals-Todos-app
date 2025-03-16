@@ -3,19 +3,36 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>This is an app for tracking goals and todos</p>
+<div class="container">
+    <h1 class="display-4 text-center">Welcome</h1>
+    <p class="text-center">This is an app for tracking todos and goals</p>
 
-    <h2>Todos</h2>
-    @foreach (Todo todo in Model.Todos) // H Lista tou Class HomeIndexViewModel public List<Todo> Todos { get; set; }
-    {
-        <p>@todo.Title</p>
-    }
+    <div class="content-wrapper">
+        <div class="todos">
 
-    <h2>Goals</h2>
-    @foreach (Goal goal in Model.Goals)
-    {
-        <p>@goal.Description</p>
-    }
+            <h2 class="striped-underline">Todos ✅</h2>
+
+            <ul>
+                @foreach (Todo todo in Model.Todos)
+                {
+                    <li>@todo.Title</li>
+                    <br />
+                }
+            </ul>
+            
+
+        </div>
+
+        <div class="goals">
+
+            <h2 class="pulsing-underline">Goals 🎯</h2>
+            
+            @foreach (Goal goal in Model.Goals)
+            {
+                <p>@goal.Description</p>
+                <hr />
+            }
+
+        </div>
+    </div>
 </div>
