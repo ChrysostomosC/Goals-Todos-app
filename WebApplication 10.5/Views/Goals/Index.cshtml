@@ -1,10 +1,14 @@
 ﻿@model List<Goal>
 
-<h1>Goals</h1>
+<h1 class="text-primary">Goals 🎯</h1>
 
-@foreach (Goal goal in Model)
+<div class="container mt-4">
+    <p>
+        <a href="/Goals/Create" class="btn btn-success">➕ Add New Goal</a>
+    </p>
+
+    @foreach (Goal goal in Model)
     {
-        <p>@goal.Description (@goal.Date)</p>
+        <li>@goal.Description (@goal.Date)</li> <br />
     }
-
-<p><a href="/Goals/Create">Create</a></p>
+</div>

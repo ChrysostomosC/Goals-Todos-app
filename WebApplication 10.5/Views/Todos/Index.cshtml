@@ -1,16 +1,17 @@
 ﻿@model List<Todo>
 
+<h1>Todos ✅</h1>
 
-<h1>Todos</h1>
+<p><a href="/Todos/Create" class="create-link">Create</a></p>
 
-@foreach (Todo todo in Model)
-{
-    <p>
-        @todo.Title
-        <form action="/Todos/Delete/@todo.Id" method="post">
-            <button>Delete</button>
-        </form>
-    </p>
-}
-
-<p><a href="/Todos/Create">Create</a></p>
+<div class="todo-container">
+    @foreach (Todo todo in Model)
+    {
+        <div class="todo-card">
+            <p>@todo.Title</p>
+            <form action="/Todos/Delete/@todo.Id" method="post">
+                <button class="delete-button">Delete</button>
+            </form>
+        </div>
+    }
+</div>
