@@ -16,4 +16,5 @@ Built using ASP.NET Core MVC and MongoDB, this app offers a scalable and flexibl
 🟢 Bootstrap/CSS – UI Styling<br /> 
 
 ## 🔗 Demo
-https://github.com/user-attachments/assets/66dae0cd-0064-4631-b2e1-b0962a9052bf
+https://github.com/user-attachments/assets/66dae0cd-0064-4631-b2e1-b0962a9052bf<hr />
+![Screenshot 2025-03-27 104441](https://github.com/user-attachments/assets/230ed7a8-d733-414d-bc12-cb957cf69823)<hr />
