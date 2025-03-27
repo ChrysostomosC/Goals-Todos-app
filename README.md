@@ -17,4 +17,6 @@ Built using ASP.NET Core MVC and MongoDB, this app offers a scalable and flexibl
 
 ## 🔗 Demo
 https://github.com/user-attachments/assets/66dae0cd-0064-4631-b2e1-b0962a9052bf<hr />
+https://github.com/user-attachments/assets/ace2669a-3a72-4314-bb5f-8fb638352e9d<hr />
 ![Screenshot 2025-03-27 104441](https://github.com/user-attachments/assets/230ed7a8-d733-414d-bc12-cb957cf69823)<hr />
+![Screenshot 2025-03-27 105926](https://github.com/user-attachments/assets/d7f09394-d1fd-4942-8c57-e997f37af5ed)<hr />
